@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
-import { BedrockAccessGatewayCdkStack } from '../lib/bedrock-access-gateway-cdk-stack';
+import { BedrockAccessGatewayCdkStack } from './stacks/bedrock-access-gateway-cdk-stack';
 
 const app = new cdk.App();
 new BedrockAccessGatewayCdkStack(app, 'BedrockAccessGatewayCdkStack', {
